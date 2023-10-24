@@ -31,7 +31,7 @@ const ButtonsComponentList = (props) => {
   };
 
   return (
-    <div className="d-flex flex-row mx-1 mb-2 justify-content-between">
+    <div className="d-flex flex-column mx-1 mb-2 justify-content-between">
       <button className="btn btn-success" disabled={false} onClick={handlerAdd}>
         Добавить источник
       </button>

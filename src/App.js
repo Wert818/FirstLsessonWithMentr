@@ -56,11 +56,22 @@ function App() {
     <>
       <div className="d-flex vh-100 vw-100 flew-row m-0 backgroundMain">
         <MenuComponent
-          setURLs={setURLs}
+          isShowModal={isShowModal}
+          setIsShowModal={setIsShowModal}
           urls={urls}
-          setCountRow={setCountRow}
+          currentURL_Id={currentURL_Id}
+          countRow={countRow}
+          countColumn={countColumn}
           JSON={JSON}
+          setCountRow={setCountRow}
           setCountColumn={setCountColumn}
+          setCurrentURL_Id={setCurrentURL_Id}
+          setURLs={setURLs}
+          setJSON={setJSON}
+          isUpdate={isUpdate}
+          setIsUpdate={setIsUpdate}
+          something={something}
+          setSomething={setSomething}
         />
 
         <BodyComponent

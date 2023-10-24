@@ -1,11 +1,11 @@
 import InfoComponent from "./InfoComponent";
-import ListComponent from "./ListComponent";
+// import ListComponent from "./ListComponent";
 
 function BodyComponent(props) {
   // console.log("statesBodyC:", props);
   return (
     <div className="d-flex mx-1 flex-column justify-content w-100 flew-fill backgroundMain border border-info ">
-      <ListComponent
+      {/* <ListComponent
         urls={props.urls}
         currentURL_Id={props.currentURL_Id}
         setCurrentURL_Id={props.setCurrentURL_Id}
@@ -20,7 +20,7 @@ function BodyComponent(props) {
         setIsUpdate={props.setIsUpdate}
         something={props.something}
         setSomething={props.setSomething}
-      />
+      /> */}
 
       <InfoComponent
         urls={props.urls}
